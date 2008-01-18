@@ -1,0 +1,14 @@
+inherit ocaml
+
+DESCRIPTION="OCaml Last.fm library"
+HOMEPAGE="http://savonet.sourceforge.net/wiki/OCamlLibs"
+SRC_URI="mirror://sourceforge/savonet/${P}.tar.gz"
+
+DIFF_EXCLUDES="Makefile.*"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygconf
+	cygmake -j1
+}
