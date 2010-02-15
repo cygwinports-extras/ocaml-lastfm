@@ -3,20 +3,19 @@ ocaml-lastfm
 This package contains an O'Caml interface for LastFM API.
 
 Runtime requirements:
-  ocaml-3.10.2-1
-  ocaml-netclient-2.2.9-2
-  ocaml-netstring-2.2.9-2
-  ocaml-pcre-5.12.2-1
-  ocaml-xml-light-2.2.20070116-2
-  ocaml-xmlplaylist-0.1.1-1
+  ocaml-3.11.2-1
+  ocaml-netclient-2.2.9-3
+  ocaml-netstring-2.2.9-3
+  ocaml-pcre-6.0.1-2
+  ocaml-xmlplaylist-0.1.2-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20080624-2
-  cygport-0.4.3-1
-  gcc-core-3.4.4-3
+  binutils-2.19.51-1
+  cygport-0.9.80-1
+  gcc4-core-4.3.4-3
   make-3.81-2
-  ocaml-findlib-1.2.2-1
+  ocaml-findlib-1.2.5-1
 
 Canonical website:
   http://savonet.sourceforge.net/wiki/OCamlLibs
@@ -27,43 +26,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack ocaml-lastfm-0.1.3-X-src.tar.bz2
+  unpack ocaml-lastfm-0.2.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./ocaml-lastfm-0.1.3-X.cygport all
+  cygport ./ocaml-lastfm-0.2.0-X.cygport all
 
 This will create:
-  /usr/src/ocaml-lastfm-0.1.3-X-src.tar.bz2
-  /usr/src/ocaml-lastfm-0.1.3-X.tar.bz2
+  /usr/src/ocaml-lastfm-0.2.0-X-src.tar.bz2
+  /usr/src/ocaml-lastfm-0.2.0-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/ocaml/3.10/lastfm/META
-  /usr/lib/ocaml/3.10/lastfm/constants.cmi
-  /usr/lib/ocaml/3.10/lastfm/lastfm.a
-  /usr/lib/ocaml/3.10/lastfm/lastfm.cma
-  /usr/lib/ocaml/3.10/lastfm/lastfm.cmi
-  /usr/lib/ocaml/3.10/lastfm/lastfm.cmx
-  /usr/lib/ocaml/3.10/lastfm/lastfm.cmxa
-  /usr/lib/ocaml/3.10/lastfm/lastfm.mli
-  /usr/lib/ocaml/3.10/lastfm/lastfm_constants.cmi
-  /usr/lib/ocaml/3.10/lastfm/lastfm_constants.cmx
-  /usr/share/doc/ocaml-lastfm-0.1.3/COPYING
-  /usr/share/doc/ocaml-lastfm-0.1.3/Changes
-  /usr/share/doc/ocaml-lastfm-0.1.3/README
-
-------------------
-
 Port Notes:
 
------ version 0.1.3-1 -----
-Version bump.
-
------ version 0.1.1-1 -----
-Initial release for Cygwin.
+----- version 0.2.0-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
