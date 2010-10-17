@@ -3,19 +3,19 @@ ocaml-lastfm
 This package contains an O'Caml interface for LastFM API.
 
 Runtime requirements:
-  ocaml-3.11.2-1
-  ocaml-netclient-2.2.9-3
-  ocaml-netstring-2.2.9-3
-  ocaml-pcre-6.0.1-2
-  ocaml-xmlplaylist-0.1.2-1
+  ocaml-base-3.12.0-4
+  ocaml-netclient-3.0.3-1
+  ocaml-netstring-3.0.3-1
+  ocaml-pcre-6.1.0-1
+  ocaml-xmlplaylist-0.1.2-2
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-2.19.51-1
-  cygport-0.9.80-1
-  gcc4-core-4.3.4-3
+  binutils-2.20.51-2
+  cygport-0.10.0-1
+  gcc4-core-4.5.0-1
   make-3.81-2
-  ocaml-findlib-1.2.5-1
+  ocaml-findlib-1.2.6-1
 
 Canonical website:
   http://savonet.sourceforge.net/
@@ -39,6 +39,9 @@ This will create:
 -------------------------------------------
 
 Port Notes:
+
+----- version 0.2.0-2 -----
+Rebuilt for OCaml 3.12.0.
 
 ----- version 0.2.0-1 -----
 Initial release for Cygwin 1.7.
