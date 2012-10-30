@@ -1,4 +1,0 @@
-category: Audio OCaml
-requires: ocaml-base ocaml-netclient ocaml-netstring ocaml-pcre ocaml-xmlplaylist
-sdesc: "OCaml LastFM library"
-ldesc: "This package contains an O'Caml interface for Lastfm API."
