@@ -3,7 +3,7 @@ inherit ocaml
 NAME="ocaml-lastfm"
 VERSION=0.3.0
 RELEASE=3
-CATEGORY="OCaml"
+CATEGORY="Libs"
 SUMMARY="OCaml Last.fm library"
 DESCRIPTION="This package contains an O'Caml interface for Lastfm API."
 HOMEPAGE="http://savonet.sourceforge.net/"
