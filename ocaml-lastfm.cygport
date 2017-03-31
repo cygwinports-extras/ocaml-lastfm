@@ -1,13 +1,13 @@
 inherit ocaml
 
 NAME="ocaml-lastfm"
-VERSION=0.3.0
-RELEASE=3
+VERSION=0.3.1
+RELEASE=1
 CATEGORY="Libs"
 SUMMARY="OCaml Last.fm library"
 DESCRIPTION="This package contains an O'Caml interface for Lastfm API."
-HOMEPAGE="http://savonet.sourceforge.net/"
-SRC_URI="mirror://sourceforge/savonet/${NAME}-${VERSION}.tar.gz"
+HOMEPAGE="http://liquidsoap.fm/"
+SRC_URI="https://github.com/savonet/${NAME}/releases/download/${VERSION}/${NAME}-${VERSION}.tar.gz"
 
 DIFF_EXCLUDES="Makefile.*"
 
